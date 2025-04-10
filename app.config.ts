@@ -1,17 +1,15 @@
-import { defineConfig } from '@tanstack/react-start/config';
+import { defineConfig } from 'vite';
 import tsConfigPaths from 'vite-tsconfig-paths';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  vite: {
-    plugins: [
-      tsConfigPaths({
-        projects: ['./tsconfig.json'],
-      }),
-      tailwindcss(),
-    ],   
-  },
+  plugins: [
+    tsConfigPaths({
+      projects: ['./tsconfig.json'],
+    }),
+    tailwindcss(),
+  ],
   server: {
-    preset: 'vercel',
+    allowedHosts: ['tanstack-app-0fvh.onrender.com'],
   },
-})
+});
