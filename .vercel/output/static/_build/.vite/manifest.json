@@ -1,0 +1,83 @@
+{
+  "/Users/olaitanakano/Documents/tanstack-app/app/styles/app.css": {
+    "file": "assets/app-BO_-F5y9.css",
+    "src": "/Users/olaitanakano/Documents/tanstack-app/app/styles/app.css"
+  },
+  "__vite-browser-external": {
+    "file": "assets/__vite-browser-external-BIHI7g3E.js",
+    "name": "__vite-browser-external",
+    "src": "__vite-browser-external",
+    "isDynamicEntry": true
+  },
+  "_client-BN7oaIpq.js": {
+    "file": "assets/client-BN7oaIpq.js",
+    "name": "client",
+    "dynamicImports": [
+      "__vite-browser-external",
+      "__vite-browser-external",
+      "__vite-browser-external",
+      "__vite-browser-external",
+      "app/routes/projects.tsx?tsr-split=component",
+      "app/routes/contact.tsx?tsr-split=component",
+      "app/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/app-BO_-F5y9.css"
+    ]
+  },
+  "_iconBase-DwV6yqnn.js": {
+    "file": "assets/iconBase-DwV6yqnn.js",
+    "name": "iconBase",
+    "imports": [
+      "_client-BN7oaIpq.js"
+    ]
+  },
+  "_index-CXrA4ozs.js": {
+    "file": "assets/index-CXrA4ozs.js",
+    "name": "index",
+    "imports": [
+      "_iconBase-DwV6yqnn.js"
+    ]
+  },
+  "app/routes/contact.tsx?tsr-split=component": {
+    "file": "assets/contact-DgLpqr9G.js",
+    "name": "contact",
+    "src": "app/routes/contact.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-BN7oaIpq.js",
+      "_iconBase-DwV6yqnn.js"
+    ]
+  },
+  "app/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-tZ7diJhe.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-BN7oaIpq.js",
+      "_index-CXrA4ozs.js",
+      "_iconBase-DwV6yqnn.js"
+    ]
+  },
+  "app/routes/projects.tsx?tsr-split=component": {
+    "file": "assets/projects-C6C4U7LK.js",
+    "name": "projects",
+    "src": "app/routes/projects.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-BN7oaIpq.js",
+      "_index-CXrA4ozs.js",
+      "_iconBase-DwV6yqnn.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-3HiW7x55.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_client-BN7oaIpq.js"
+    ]
+  }
+}

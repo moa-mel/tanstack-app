@@ -9,10 +9,11 @@ export default defineConfig({
         projects: ['./tsconfig.json'],
       }),
       tailwindcss(),
+      
     ],
+    
   },
   server: {
     preset: 'vercel',
-    allowedHosts: true,
   },
 })

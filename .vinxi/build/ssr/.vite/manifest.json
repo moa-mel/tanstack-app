@@ -1,0 +1,51 @@
+{
+  "/Users/olaitanakano/Documents/tanstack-app/app/styles/app.css": {
+    "file": "assets/app-Dl97qwoK.css",
+    "src": "/Users/olaitanakano/Documents/tanstack-app/app/styles/app.css"
+  },
+  "_ssr-CyIPQ1N5.js": {
+    "file": "assets/ssr-CyIPQ1N5.js",
+    "name": "ssr",
+    "dynamicImports": [
+      "app/routes/projects.tsx?tsr-split=component",
+      "app/routes/contact.tsx?tsr-split=component",
+      "app/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/app-Dl97qwoK.css"
+    ]
+  },
+  "app/routes/contact.tsx?tsr-split=component": {
+    "file": "assets/contact-AlHtHBcX.js",
+    "name": "contact",
+    "src": "app/routes/contact.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-CyIPQ1N5.js"
+    ]
+  },
+  "app/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-DXmnmwPj.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "app/routes/projects.tsx?tsr-split=component": {
+    "file": "assets/projects-BjUMRhap.js",
+    "name": "projects",
+    "src": "app/routes/projects.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-CyIPQ1N5.js"
+    ]
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "imports": [
+      "_ssr-CyIPQ1N5.js"
+    ]
+  }
+}
